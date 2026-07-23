@@ -393,3 +393,16 @@ a{
     font-size:1.15rem;
 
 }
+
+.problem-icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:24px;
+}
+
+.problem-icon svg{
+    width:72px;
+    height:72px;
+    color:var(--green-dark);
+}
