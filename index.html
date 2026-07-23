@@ -1,104 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CourtZ | Spend more time playing</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CourtZ | Spend more time playing. Less time organising.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header class="site-header">
-  <div class="container nav">
-    <img src="images/courtzlogo.png" alt="CourtZ logo" class="logo">
-    <a href="#beta" class="beta-pill">Beta Coming Soon</a>
-  </div>
+<header>
+<div class="container nav">
+<img class="logo" src="images/courtzlogo.png" alt="CourtZ">
+<nav>
+<a href="#features">Features</a>
+<a href="#sports">Sports</a>
+<a href="#about">About</a>
+</nav>
+<a class="btn ghost" href="#beta">Join the Beta</a>
+</div>
 </header>
 
-<main>
-
 <section class="hero container">
-  <div class="hero-text">
-    <h1>Spend more time playing.<br><span>Less time organising.</span></h1>
-
-    <p>CourtZ generates fair, balanced matches in seconds, helping club organisers spend more time playing and less time organising.</p>
-
-    <a href="#beta" class="btn-primary">Join the Beta</a>
-
-    <ul class="trust-list">
-      <li>Designed for club organisers</li>
-      <li>Singles & doubles support</li>
-      <li>Configurable player skill levels</li>
-    </ul>
-  </div>
-
-  <div class="hero-image">
-    <img src="images/CourtZGamesPage.png" alt="CourtZ application screenshot">
-  </div>
+<div class="copy">
+<p class="eyebrow">Court session management</p>
+<h1>Spend more time playing.<br><span>Less time organising.</span></h1>
+<p class="lead">CourtZ creates fair, balanced singles and doubles sessions in seconds, helping organisers spend less time arranging games and more time on court.</p>
+<a class="btn" href="#beta">Join the Beta</a>
+<ul>
+<li>Designed for club organisers</li>
+<li>Singles & doubles support</li>
+<li>Configurable skill levels</li>
+</ul>
+</div>
+<div class="shot">
+<img src="images/CourtZGamesPage.png" alt="CourtZ screenshot">
+</div>
 </section>
 
-<section class="section alt">
+<section class="alt">
 <div class="container">
 <h2>Does this sound familiar?</h2>
-<p class="section-intro">Many clubs still organise sessions using traditional methods.</p>
-
-<div class="card-grid">
-<article class="card"><h3>Magnetic Boards</h3><p>Moving player names around every round.</p></article>
-<article class="card"><h3>Whiteboards</h3><p>Erasing and rewriting matches all evening.</p></article>
-<article class="card"><h3>Paper Lists</h3><p>Trying to remember previous partnerships.</p></article>
-<article class="card"><h3>Spreadsheets</h3><p>Balancing matches while players wait.</p></article>
+<div class="grid four">
+<div class="card"><h3>Magnetic Boards</h3><p>Moving names around every round.</p></div>
+<div class="card"><h3>Whiteboards</h3><p>Constant erasing and rewriting.</p></div>
+<div class="card"><h3>Paper Lists</h3><p>Keeping track of previous partners.</p></div>
+<div class="card"><h3>Spreadsheets</h3><p>Balancing games while players wait.</p></div>
 </div>
 </div>
 </section>
 
-<section class="section">
+<section id="features">
 <div class="container">
-<h2>Why club organisers choose CourtZ</h2>
-<div class="feature-grid">
-<div class="feature"><h3>Intelligent Match Generation</h3><p>Balanced singles and doubles in seconds.</p></div>
-<div class="feature"><h3>Attendance Management</h3><p>Select who's playing in seconds.</p></div>
-<div class="feature"><h3>Fair & Balanced Games</h3><p>Use configurable player skill levels.</p></div>
-<div class="feature"><h3>Reduce Repeat Matchups</h3><p>Mix partners and opponents throughout the session.</p></div>
+<h2>Everything you need to organise better sessions</h2>
+<div class="grid four">
+<div class="card"><h3>Intelligent Match Generation</h3><p>Create balanced games in seconds.</p></div>
+<div class="card"><h3>Attendance Management</h3><p>Select who's playing with a tap.</p></div>
+<div class="card"><h3>Fair & Balanced Games</h3><p>Skill-based balancing you control.</p></div>
+<div class="card"><h3>Reduce Repeat Matchups</h3><p>Mix partners and opponents naturally.</p></div>
 </div>
 </div>
 </section>
 
-<section class="section alt">
+<section id="sports" class="alt">
 <div class="container">
-<h2>Designed for</h2>
+<h2>Designed for court sports</h2>
 <div class="sports">
-<span>Badminton</span><span>Tennis</span><span>Pickleball</span><span>Padel</span><span>Other court sports</span>
+<div class="sport">Badminton</div>
+<div class="sport">Tennis</div>
+<div class="sport">Pickleball</div>
+<div class="sport">Padel</div>
+<div class="sport">Other court sports</div>
 </div>
 </div>
 </section>
 
-<section id="beta" class="container">
-<div class="cta">
+<section id="about">
+<div class="container cta" id="beta">
 <div>
 <h2>Ready to spend more time playing?</h2>
-<p>Let CourtZ do the organising while you enjoy the game.</p>
+<p>Join the beta and help shape CourtZ.</p>
 </div>
-<a href="#" class="btn-secondary">Join the Beta</a>
+<a class="btn light" href="#">Join the Beta</a>
 </div>
 </section>
 
-</main>
-
-<footer class="site-footer">
-<div class="container footer">
-<img src="images/courtzlogo.png" class="footer-logo" alt="CourtZ logo">
-<nav>
-<a href="#">Features</a>
-<a href="#">Sports</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-</nav>
+<footer>
+<div class="container foot">
+<img class="logo" src="images/courtzlogo.png" alt="">
 <p>© 2026 CourtZ</p>
 </div>
 </footer>
-
-</body>
-</html>
+</body></html>
