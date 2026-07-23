@@ -232,3 +232,95 @@ ul{
     }
 
 }
+/* ==========================================================
+   Section Heading
+   ========================================================== */
+
+.section{
+    padding:5rem 0;
+}
+
+.section-heading{
+    max-width:760px;
+    margin:0 auto 3.5rem;
+    text-align:center;
+}
+
+.section-tag{
+    display:inline-block;
+    margin-bottom:1rem;
+    padding:.45rem .9rem;
+    border-radius:999px;
+    background:#dbeafe;
+    color:#0369a1;
+    font-weight:700;
+}
+
+.section-heading h2{
+    margin:0 0 1rem;
+    font-size:2.4rem;
+    line-height:1.2;
+}
+
+.section-heading p{
+    margin:0;
+    color:#64748b;
+    font-size:1.1rem;
+}
+
+
+/* ==========================================================
+   Problems
+   ========================================================== */
+
+.problem-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1.75rem;
+}
+
+.problem-card{
+    background:#fff;
+    padding:2rem;
+    border-radius:20px;
+    box-shadow:0 12px 35px rgba(15,23,42,.08);
+    transition:.25s ease;
+}
+
+.problem-card:hover{
+    transform:translateY(-6px);
+}
+
+.problem-icon{
+    width:64px;
+    height:64px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:1.5rem;
+    border-radius:16px;
+    background:#ecfeff;
+}
+
+.problem-icon img{
+    width:34px;
+    height:34px;
+}
+
+.problem-card h3{
+    margin:0 0 .8rem;
+    font-size:1.2rem;
+}
+
+.problem-card p{
+    margin:0;
+    color:#64748b;
+}
+
+@media (max-width:900px){
+
+    .problem-grid{
+        grid-template-columns:1fr;
+    }
+
+}
