@@ -658,3 +658,29 @@ a{
     color:var(--green-dark);
 
 }
+
+.cta-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+}
+
+.cta-button svg{
+
+    width:22px;
+    height:22px;
+
+    flex-shrink:0;
+
+}
+
+svg{
+    display:block;
+}
+
