@@ -1,0 +1,75 @@
+/* ==========================================================
+   Header
+   ========================================================== */
+
+.site-header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:#ffffffee;
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid #e5e7eb;
+}
+
+.header-inner{
+    display:grid;
+    grid-template-columns:auto 1fr auto;
+    align-items:center;
+    gap:2rem;
+    min-height:82px;
+}
+
+.logo img{
+    height:46px;
+    width:auto;
+}
+
+.main-nav{
+    justify-self:center;
+}
+
+.main-nav ul{
+    display:flex;
+    gap:2rem;
+}
+
+.main-nav a{
+    font-size:.95rem;
+    font-weight:600;
+    letter-spacing:.02em;
+    color:#475569;
+    transition:.25s;
+}
+
+.main-nav a:hover{
+    color:#0ea5a4;
+}
+
+.beta-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:.85rem 1.5rem;
+    border-radius:999px;
+    background:#0ea5a4;
+    color:#ffffff;
+    font-size:.95rem;
+    font-weight:700;
+    box-shadow:0 8px 24px rgba(14,165,164,.25);
+    transition:.25s;
+}
+
+.beta-button:hover{
+    background:#0284c7;
+}
+
+@media (max-width:900px){
+
+    .header-inner{
+        grid-template-columns:1fr;
+        justify-items:center;
+        gap:1rem;
+        padding:1rem 0;
+    }
+
+}
