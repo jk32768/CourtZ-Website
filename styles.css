@@ -339,6 +339,58 @@ button:focus-visible{
 
 }
 
+/* ==========================
+   Workflow Section
+========================== */
+
+.workflow {
+    padding: 6rem 0;
+}
+
+.workflow-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.workflow-text h2 {
+    margin: 1rem 0 1.5rem;
+}
+
+.workflow-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-light);
+    max-width: 38rem;
+}
+
+.workflow-image img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #dbe5ea;
+    box-shadow: 0 24px 60px rgba(0,0,0,.12);
+}
+
+@media (max-width: 900px) {
+
+    .workflow-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .workflow-text {
+        order: 1;
+    }
+
+    .workflow-image {
+        order: 2;
+    }
+
+}
+
+
 /* ==========================================================
    Features
    ========================================================== */
