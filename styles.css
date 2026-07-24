@@ -354,6 +354,18 @@ button:focus-visible{
     align-items: start;
 }
 
+.workflow-reverse .workflow-layout {
+    grid-template-columns: 62% 38%;
+}
+
+.workflow-reverse .workflow-image {
+    order: 1;
+}
+
+.workflow-reverse .workflow-text {
+    order: 2;
+}
+
 .workflow-text {
     padding-top: 1rem;
 }
