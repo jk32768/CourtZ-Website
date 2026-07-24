@@ -344,14 +344,18 @@ button:focus-visible{
 ========================== */
 
 .workflow {
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 
 .workflow-layout {
     display: grid;
     grid-template-columns: 38% 62%;
-    gap: 4rem;
+    gap: 3rem;
     align-items: start;
+}
+
+.workflow-text {
+    padding-top: 1rem;
 }
 
 .workflow-text h2 {
@@ -359,10 +363,10 @@ button:focus-visible{
 }
 
 .workflow-text p {
+    max-width: 32rem;
     font-size: 1.1rem;
     line-height: 1.8;
     color: var(--text-light);
-    max-width: 38rem;
 }
 
 .workflow-image img {
@@ -379,6 +383,17 @@ button:focus-visible{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .workflow-text {
+        order: 1;
+        padding-top: 0;
+    }
+
+    .workflow-image {
+        order: 2;
+    }
+
+}
 
     .workflow-text {
         order: 1;
