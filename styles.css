@@ -43,6 +43,11 @@ ul{
     margin-inline:auto;
 }
 
+a:focus-visible,
+button:focus-visible{
+    outline:3px solid #0ea5a4;
+    outline-offset:3px;
+}
 
 /* ==========================================================
    Header
@@ -224,14 +229,6 @@ ul{
     .hero-grid{
         grid-template-columns:1fr;
         text-align:center;
-    }
-
-    .hero-content{
-        order:1;
-    }
-
-    .hero-image{
-        order:2;
     }
 
     .hero-actions{
