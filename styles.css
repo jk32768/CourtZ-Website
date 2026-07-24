@@ -349,9 +349,9 @@ button:focus-visible{
 
 .workflow-layout {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 35% 65%;
     gap: 4rem;
-    align-items: center;
+    align-items: start;
 }
 
 .workflow-text h2 {
