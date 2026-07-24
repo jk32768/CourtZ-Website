@@ -371,7 +371,9 @@ button:focus-visible{
 
 .workflow-image img {
     display: block;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
     border-radius: 20px;
     border: 1px solid #dbe5ea;
     box-shadow: 0 24px 60px rgba(0,0,0,.12);
