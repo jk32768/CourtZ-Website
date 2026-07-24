@@ -349,7 +349,7 @@ button:focus-visible{
 
 .workflow-layout {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 38% 62%;
     gap: 4rem;
     align-items: start;
 }
