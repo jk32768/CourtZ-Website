@@ -114,7 +114,7 @@ ul{
    ========================================================== */
 
 .hero{
-    padding:5rem 0;
+    padding:7rem 0;
 }
 
 .hero-grid{
@@ -136,8 +136,10 @@ ul{
 
 .hero h1{
     margin:0;
-    font-size:3.4rem;
-    line-height:1.1;
+    font-size:clamp(3rem,6vw,4.5rem);
+    line-height:1.05;
+    letter-spacing:-0.03em;
+    margin-bottom:1.5rem;
     font-weight:800;
 }
 
@@ -149,7 +151,7 @@ ul{
     margin:2rem 0;
     font-size:1.15rem;
     color:#4b5563;
-    max-width:38rem;
+    max-width:34rem;
 }
 
 .hero-actions{
