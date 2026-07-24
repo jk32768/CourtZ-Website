@@ -369,10 +369,15 @@ button:focus-visible{
     color: var(--text-light);
 }
 
+.workflow-image {
+    display: flex;
+    justify-content: center;
+}
+
 .workflow-image img {
     display: block;
     width: auto;
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     border-radius: 20px;
     border: 1px solid #dbe5ea;
