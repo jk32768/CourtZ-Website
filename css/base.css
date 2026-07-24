@@ -1,0 +1,65 @@
+/* ==========================================================
+   CourtZ Website
+   Base Styles
+   ========================================================== */
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:'Inter',sans-serif;
+    color:#1f2937;
+    background:#f6f9fc;
+    line-height:1.6;
+}
+
+img{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+    transition:color .25s ease;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.container{
+    width:min(1120px,calc(100% - 2rem));
+    margin-inline:auto;
+}
+
+a:focus-visible,
+button:focus-visible{
+    outline:3px solid #0ea5a4;
+    outline-offset:3px;
+}
+
+@media (prefers-reduced-motion: reduce){
+
+    html{
+        scroll-behavior:auto;
+    }
+
+    *,
+    *::before,
+    *::after{
+        transition:none !important;
+    }
+
+}
